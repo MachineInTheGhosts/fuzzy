@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fuzzy"
+version = "0.1.0"
+description = "A dead simple Streamlit app to perform fuzzy matching on Excel files"
+authors = ["JB <joseph.bendana@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "fuzzy" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.41.1"
+rapidfuzz = "^3.11.0"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
