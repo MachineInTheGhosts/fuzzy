@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "A dead simple Streamlit app to perform fuzzy matching on Excel files"
 authors = ["JB <joseph.bendana@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "fuzzy" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
